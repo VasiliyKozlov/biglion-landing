@@ -1,0 +1,108 @@
+.earnings {
+  &__link-modal {
+    position: relative;
+  }
+  &__modal {
+    position: absolute;
+    bottom: 60px;
+    left: -80px;
+    width: 280px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #555;
+    padding: 20px;
+    line-height: 1.4;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.5s;
+    &:after{
+      content: "";
+      width: 1px;
+      height: 1px;
+      border-width: 15px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
+      position: absolute;
+      bottom: -30px;
+      left: 80px;
+    }
+  }
+  &__table-legend {
+    max-width: 745px;
+    opacity: 0.6;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.47;
+    text-align: left;
+    color: #161616;
+    margin-bottom: 40px;
+  }
+  &__link {
+    margin: 40px 0 80px;
+    display: block;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.47;
+    color: #fe7840;
+    cursor: pointer;
+    width: 160px;
+    &:hover + .earnings__modal{
+        opacity: 1;
+    }
+  }
+  &__text {
+    max-width: 775px;
+  }
+  &__list {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    &-item {
+      max-width: 260px;
+      box-sizing: border-box;
+      vertical-align: top;
+      margin-right: 65px;
+      &:last-child {
+        margin-right: 0;
+      }
+      &_1 {
+        &:before {
+          content: "";
+          width: 64px;
+          height: 64px;
+          background-image: url("../../image/group-41.svg");
+          background-repeat: no-repeat;
+          display: block;
+          margin-bottom: 25px;
+          border-radius: 50%;
+        }
+      }
+      &_2 {
+        &:before {
+          content: "";
+          width: 64px;
+          height: 64px;
+          background-image: url("../../image/group-42.svg");
+          background-repeat: no-repeat;
+          display: block;
+          margin-bottom: 25px;
+          border-radius: 50%;
+        }
+      }
+      &_3 {
+        &:before {
+          content: "";
+          width: 64px;
+          height: 64px;
+          background-image: url("../../image/group-43.svg");
+          background-repeat: no-repeat;
+          display: block;
+          margin-bottom: 25px;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}

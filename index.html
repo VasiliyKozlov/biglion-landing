@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="build/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,700,700i,800,800i"
+      rel="stylesheet"
+    />
+    <!-- <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXg85CFSeFooxCOYv8sMqJmlRVc-kON4Q&callback=initMap">
+    </script>
+    <script src="statics/location.js"></script> -->
+  </head>
+
+  <body>
+    <div class="containner">
+      <!--'LOGO'-->
+      <div class="logo">
+        <img
+          src="image/logo.svg"
+          alt=""
+          width="128"
+          height="48"
+          class="logo__img"
+        />
+      </div>
+      <!--'LOGO'-->
+
+      <!--'FIRST SCREEN'-->
+      <div class="first-screen">
+        <h1 class="first-screen__caption">
+          Откройте офис Biglion в вашем городе
+        </h1>
+        <div class="first-screen__liad">
+          Мы предлагаем вам развивать Biglion в своем регионе, <br />
+          а именно — привлекать партнёров для запуска акций на сайте компании.
+        </div>
+      </div>
+      <!--'FIRST SCREEN'-->
+
+      <!--'HEADER'-->
+      <header class="header">
+        <div class="header__wrapper">
+          <div class="header__nav">
+            <span data-href="#about" class="header__nav-link anchor-link"
+              >О компании</span
+            >
+            <span data-href="#earnings" class="header__nav-link anchor-link"
+              >Как вы будете зарабатывать</span
+            >
+            <span data-href="#conditions" class="header__nav-link anchor-link"
+              >События и отзывы</span
+            >
+            <span data-href="#conditions" class="header__nav-link anchor-link"
+              >Условия</span
+            >
+          </div>
+          <div class="header__btn">
+            <button data-href="#order" class="btn  anchor-link">
+              Оставить заявку
+            </button>
+          </div>
+        </div>
+      </header>
+      <!--'HEADER'-->
+
+      <!--'CONTENT'-->
+      <div class="content">
+        <!--'SECTION ABOUT'-->
+        <div class="content__section about" id="about">
+          <!--'CARUSEL'-->
+          <div
+            class="carusel"
+            data-flickity='{ "cellAlign": "left", "contain": true }'
+          >
+            <div class="carusel__slide carusel__slide_1">
+              <div class="carusel__slide-wrapper carusel__slide-wrapper_1">
+                <div class="carusel__slide-img">
+                  <img src="image/flag.png" alt="" />
+                </div>
+                <div class="carusel__slide-content">
+                  <div class="carusel__slide-heading">ПОЧЕМУ БИГЛИОН?</div>
+                  <h1
+                    class="carusel__slide-caption carusel__slide-caption_white"
+                  >
+                    Прибыль <br />
+                    от 250 000 ₽ в месяц
+                  </h1>
+                  <p class="carusel__slide-text">
+                    На основе нашего многолетнего опыта работы на региональном
+                    рынке мы предлагаем уникальную франчайзинговую программу,
+                    специально разработанную для малых городов.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carusel__slide carusel__slide_2">
+              <div class="carusel__slide-wrapper ">
+                <div class="carusel__slide-img">
+                  <img src="image/arrowSlide.png" alt="" />
+                </div>
+                <div class="carusel__slide-content">
+                  <div class="carusel__slide-heading">ПОЧЕМУ БИГЛИОН?</div>
+                  <h1
+                    class="carusel__slide-caption carusel__slide-caption_white"
+                  >
+                    Прибыль <br />
+                    от 250 000 ₽ в месяц
+                  </h1>
+                  <p class="carusel__slide-text">
+                    На основе нашего многолетнего опыта работы на региональном
+                    рынке мы предлагаем уникальную франчайзинговую программу,
+                    специально разработанную для малых городов.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carusel__slide carusel__slide_3">
+              <div class="carusel__slide-wrapper ">
+                <div class="carusel__slide-img">
+                  <img src="image/moneySlide.png" alt="" />
+                </div>
+                <div class="carusel__slide-content">
+                  <div class="carusel__slide-heading">ПОЧЕМУ БИГЛИОН?</div>
+                  <h1
+                    class="carusel__slide-caption carusel__slide-caption_white"
+                  >
+                    Прибыль <br />
+                    от 250 000 ₽ в месяц
+                  </h1>
+                  <p class="carusel__slide-text">
+                    На основе нашего многолетнего опыта работы на региональном
+                    рынке мы предлагаем уникальную франчайзинговую программу,
+                    специально разработанную для малых городов.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="button-row">
+            <button class="button-arrow button--previous">&larr;</button>
+            <div class="button-group button-group--cells">
+              <button class="button is-selected">1</button>
+              <button class="button">2</button>
+              <button class="button">3</button>
+            </div>
+            <button class="button-arrow button--next">&rarr;</button>
+          </div>
+          <!--'CARUSEL'-->
+
+          <div class="about__promo">
+            <div class="content__wrapper">
+              <div class="about__text about__text_short">
+                <div class="about__text-wrapper">
+                  <div class="about__text-heading">О КОМПАНИИ</div>
+                  <h1 class="content__caption content__caption_white">
+                    Биглион — лидер купонного рынка в России
+                  </h1>
+                  <p class="text text_white">
+                    Нам удалось построить крупную федеральную компанию,
+                    ежедневно зарабатывающую десятки миллионов рублей на
+                    скидках. <br />Сегодня Biglion — лидер купонного рынка в
+                    России.
+                  </p>
+                  <p class="text text_white">
+                    В Москве и регионах трудится свыше 1000 сотрудников.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about__text">
+            <div class="content__wrapper">
+              <h1 class="content__caption">Постоянное развитие</h1>
+              <p class="text">
+                Мы сотрудничаем с проверенными партнерами, которые предоставляют
+                нашим пользователям самые выгодные и качественные услуги. С
+                каждым из них мы договариваемся о лучших условиях для вас.
+                Взамен гарантируем партнеру привлечь определенное количество
+                покупателей.
+              </p>
+            </div>
+          </div>
+          <div class="about__statistics">
+            <div class="content__wrapper">
+              <div class="about__statistics-wrap">
+                <ul class="about__statistics-list ">
+                  <li class="about__statistics-list-item">
+                    <div class="about__statistics-list-item-large">
+                      25,120,500
+                    </div>
+                    <div class="about__statistics-list-item-small">
+                      зарегистрированных пользователей
+                    </div>
+                  </li>
+                  <li class="about__statistics-list-item">
+                    <div class="about__statistics-list-item-large">5,200</div>
+                    <div class="about__statistics-list-item-small">
+                      акций на сайте ежедневно
+                    </div>
+                  </li>
+                  <li class="about__statistics-list-item">
+                    <div class="about__statistics-list-item-large">49,000</div>
+                    <div class="about__statistics-list-item-small">
+                      партнёров
+                    </div>
+                  </li>
+                </ul>
+                <div class="about__statistics-chart">
+                  <img src="image/chart.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about__statistics ">
+            <div class="content__wrapper">
+              <div class="about__statistics-color-wrap">
+                <div class="about__statistics-color-left">
+                  <div class="about__statistics-color-large">44%</div>
+                  <div class="about__statistics-color-small">
+                    Покупок с веб версии <br />
+                    в 2017 году
+                  </div>
+                </div>
+                <div class="about__statistics-color-right">
+                  <div class="about__statistics-color-large">56%</div>
+                  <div class="about__statistics-color-small">
+                    Покупок из мобильных <br />приложений в 2017 году (iOS,
+                    Android)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content__wrapper">
+            <div class="about__text about__text_short">
+              <p class="text">
+                Офис компании Biglion в городе — это удаленный отдел продаж.
+                Менеджеры звонят, ездят на встречи и все занимаются продажами.
+                Как правило владельцы франшизы являются руководителями и
+                занимаются планированием, организацией и контролем работы
+                менеджеров.
+              </p>
+            </div>
+          </div>
+          <div class="about__map" id="">
+            <div class="content__wrapper">
+              <div class="about__map-satatistic">
+                <strong>50</strong> городов в России, где есть «Биглион»
+              </div>
+            </div>
+            <div id="map" class="map"></div>
+          </div>
+          <div class="content__wrapper">
+            <div class="about__text about__text_short">
+              <p class="text">
+                Одним из акционеров компании Biglion является крупная
+                инвестиционная группа Ру-нет, которая так входит в число
+                акционеров успешных интернет-проектов как в России, так и за
+                рубежом: ozon.ru, ivi.ru, 2Gis и другие.
+              </p>
+              <div class="about__logo-list">
+                <img src="image/ozon.png" alt="" />
+                <img src="image/ivi.png" alt="" />
+                <img src="image/gis.png" alt="" />
+                <img src="image/sum.png" alt="" /><br />
+                <img src="image/GSG.png" alt="" />
+                <img src="image/snap.png" alt="" />
+                <img src="image/house.png" alt="" />
+                <img src="image/urban.png" alt="" />
+                <img src="image/nuvo.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--'SECTION ABOUT'-->
+
+        <!--'SECTION EARNINGS'-->
+        <div class="content__section earnings" id="earnings">
+          <div class="content__wrapper">
+            <h1 class="content__caption">
+              На чём вы будете <br />
+              зарабатывать?
+            </h1>
+            <div class="earnings__text">
+              <p class="text">
+                Офис компании Biglion в городе — это удаленный отдел продаж.
+                Менеджеры звонят, ездят на встречи и все занимаются продажами.
+                Как правило владельцы франшизы являются руководителями и
+                занимаются планированием, организацией и контролем работы
+                менеджеров.
+              </p>
+            </div>
+            <ul class="earnings__list">
+              <li class="earnings__list-item earnings__list-item_1">
+                Вы договариваетесь с партнёром и размещаете акцию на сайте
+                Биглиона
+              </li>
+              <li class="earnings__list-item earnings__list-item_2">
+                Деньги от продажи купона делятся между вами и партнёром
+              </li>
+              <li class="earnings__list-item earnings__list-item_3">
+                По программе франшизы до 70% дохода остаётся у вас
+              </li>
+            </ul>
+            <div class="earnings__link-modal">
+              <span class="link earnings__link"
+                >Почему партнёрам <br />это выгодно?</span
+              >
+              <div class="earnings__modal">
+                Такое понимание ситуации восходит к Эл Райс, при этом рыночная
+                ситуация однородно трансформирует стратегический рыночный план,
+                полагаясь на инсайдерскую информацию. Формат события ускоряет
+                жизненный цикл продукции, расширяя долю рынка. К тому же
+                рекламная кампания развивает портрет потребителя.
+              </div>
+            </div>
+            <div class="earnings__table-legend">
+              Высокая эффективность бизнеса достигается сочетанием совершенных
+              стандартов и технологии, грамотного маркетинга и сильного,
+              устойчивого бренда. Посмотрите на показатели наших франчайзи в
+              действующих региональных офисах малых городов :
+            </div>
+            <div class="content__table">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th class="table__th">Филиал</th>
+                    <th class="table__th">Год открытия</th>
+                    <th class="table__th">Количество акций</th>
+                    <th class="table__th">Ежемесячная прибыль</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Москва</td>
+                    <td>2010</td>
+                    <td>389 400</td>
+                    <td><strong>1 150 000 ₽</strong></td>
+                  </tr>
+                  <tr>
+                    <td>Калининград</td>
+                    <td>2012</td>
+                    <td>211 900</td>
+                    <td><strong>640 000 ₽</strong></td>
+                  </tr>
+                  <tr>
+                    <td>Сочи</td>
+                    <td>2013</td>
+                    <td>740 000</td>
+                    <td><strong>560 000 ₽</strong></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <!--'SECTION EARNINGS'-->
+
+        <!--'SECTION CONDITIONS'-->
+        <div class="content__section conditions" id="conditions">
+          <div class="content__wrapper">
+            <div class="conditions__text">
+              <h1 class="content__caption">
+                А может мне лучше просто открыть барбершоп? <br />Или ресторан?
+              </h1>
+              <p class="text">
+                Франшиза Biglion имеет три главных преимущества по сравнению с
+                другими франчайзинговыми предложениями на рынке – минимум
+                дополнительных затрат при открытии, быстрая окупаемость и
+                отсутствие конкуренции.
+              </p>
+              <p class="text">Давайте прикинем.</p>
+            </div>
+
+            <div class="content__table">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th class="table__th">Франшиза</th>
+                    <th class="table__th">Конкуренция</th>
+                    <th class="table__th">
+                      Средний размер<br />
+                      инвестиций
+                    </th>
+                    <th class="table__th">Окупаемость</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Biglion</td>
+                    <td>Нет</td>
+                    <td>от 750 000</td>
+                    <td><strong>от 9 месяцев</strong></td>
+                  </tr>
+                  <tr>
+                    <td>Барбершоп</td>
+                    <td>Высокая</td>
+                    <td>от 2 млн</td>
+                    <td><strong>от 12 месяцев</strong></td>
+                  </tr>
+                  <tr>
+                    <td>Ресторан</td>
+                    <td>Высокая</td>
+                    <td>от 10 млн</td>
+                    <td><strong>от 18 месяцев</strong></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div
+            class="carusel2"
+            data-flickity='{ "cellAlign": "left", "contain": true }'
+          >
+            <div class="carusel__slide carusel2__slide_1 ">
+              <div class="carusel__slide-wrapper">
+                <div
+                  class="carusel__slide-heading carusel__slide-heading_white"
+                >
+                  ЧТО ВЫ ПОЛУЧИТЕ
+                </div>
+                <h1 class="content__caption content__caption_white">
+                  Тренинг <br />
+                  и стартап-команда
+                </h1>
+                <p class="text text_white">
+                  Нам удалось построить крупную федеральную компанию, ежедневно
+                  зарабатывающую десятки миллионов рублей на скидках. Сегодня
+                  Biglion — лидер купонного рынка в России.
+                </p>
+              </div>
+            </div>
+            <div class="carusel__slide carusel2__slide_2">
+              <div class="carusel__slide-wrapper">
+                <div class="carusel__slide-heading">ЧТО ВЫ ПОЛУЧИТЕ</div>
+                <h1 class="content__caption content__caption_white">
+                  Эффективные <br />инструменты
+                </h1>
+                <p class="text text_white">
+                  Нам удалось построить крупную федеральную компанию, ежедневно
+                  зарабатывающую десятки миллионов рублей на скидках. Сегодня
+                  Biglion — лидер купонного рынка в России.
+                </p>
+              </div>
+            </div>
+            <div class="carusel__slide carusel2__slide_3">
+              <div class="carusel__slide-wrapper">
+                <div class="carusel__slide-heading">ЧТО ВЫ ПОЛУЧИТЕ</div>
+                <h1 class="content__caption content__caption_white">
+                  Прибыль от 250 000 ₽ в месяц
+                </h1>
+                <p class="text text_white">
+                  Нам удалось построить крупную федеральную компанию, ежедневно
+                  зарабатывающую десятки миллионов рублей на скидках. Сегодня
+                  Biglion — лидер купонного рынка в России.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="button-row2">
+            <button class="button-arrow button--previous">&larr;</button>
+            <div class="button-group button-group--cells">
+              <button class="button is-selected">1</button>
+              <button class="button">2</button>
+              <button class="button">3</button>
+            </div>
+            <button class="button-arrow button--next">&rarr;</button>
+          </div>
+          <div class="content__wrapper">
+            <div class="conditions__person">
+              <div class="conditions__person-tabs">
+                <ul>
+                  <li class="conditions__person-tab active" data-tab-index="1">
+                    <img
+                      class="conditions__person-tab-img"
+                      src="http://cs7.pikabu.ru/images/big_size_comm_an/2014-03_7/13962622876915.gif"
+                      alt=""
+                    />
+                  </li>
+                  <li class="conditions__person-tab" data-tab-index="2">
+                    <img
+                      class="conditions__person-tab-img"
+                      src="http://cs7.pikabu.ru/images/big_size_comm_an/2014-03_7/13962622876915.gif"
+                      alt=""
+                    />
+                  </li>
+                  <li class="conditions__person-tab" data-tab-index="3">
+                    <img
+                      class="conditions__person-tab-img"
+                      src="http://cs7.pikabu.ru/images/big_size_comm_an/2014-03_7/13962622876915.gif"
+                      alt=""
+                    />
+                  </li>
+                </ul>
+              </div>
+              <div class="conditions__person-tab-content active" id="1">
+                <div class="conditions__person-tab-item">
+                  <div class="conditions__person-name">Луиза Архипова</div>
+                  <div class="conditions__person-position">
+                    Директор Тамбовского филиала
+                  </div>
+                  <div class="conditions__person-speech">
+                    Потребление, конечно, позитивно допускает эмпирический
+                    conversion rate. Имидж, не меняя концепции, изложенной выше,
+                    существенно ускоряет конструктивный презентационный
+                    материал.
+                  </div>
+                </div>
+              </div>
+              <div class="conditions__person-tab-content" id="2">
+                <div class="conditions__person-tab-item">
+                  <div class="conditions__person-name">Фредерик Бекбедер</div>
+                  <div class="conditions__person-position">
+                    Директор Тамбовского филиала
+                  </div>
+                  <div class="conditions__person-speech">
+                    Потребление, конечно, позитивно допускает эмпирический
+                    conversion rate. Имидж, не меняя концепции, изложенной выше,
+                    существенно ускоряет конструктивный презентационный
+                    материал.
+                  </div>
+                </div>
+              </div>
+              <div class="conditions__person-tab-content" id="3">
+                <div class="conditions__person-tab-item">
+                  <div class="conditions__person-name">Луис Армстронг</div>
+                  <div class="conditions__person-position">
+                    Директор Тамбовского филиала
+                  </div>
+                  <div class="conditions__person-speech">
+                    Потребление, конечно, позитивно допускает эмпирический
+                    conversion rate. Имидж, не меняя концепции, изложенной выше,
+                    существенно ускоряет конструктивный презентационный
+                    материал.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="conditions__news">
+              <h1 class="content__caption">Новости</h1>
+              <div class="conditions__news-list ">
+                <div class="conditions__news-item modal-link">
+                  <div class="conditions__news-item-img">
+                    <img src="image/news1.jpg" alt="" />
+                  </div>
+                  <div class="conditions__news-item-date">13 октября</div>
+                  <div class="conditions__news-item-caption">
+                    Филиалу в Тамбове — 3 года!
+                  </div>
+                </div>
+                <div class="conditions__news-item modal-link">
+                  <div class="conditions__news-item-img">
+                    <img src="image/news2.jpg" alt="" />
+                  </div>
+                  <div class="conditions__news-item-date">15 ноября</div>
+                  <div class="conditions__news-item-caption">
+                    Открытие филиала в Казани 11 ноября
+                  </div>
+                </div>
+                <div class="conditions__news-item modal-link">
+                  <div class="conditions__news-item-img">
+                    <img src="image/news3.jpg" alt="" />
+                  </div>
+                  <div class="conditions__news-item-date">7 марта</div>
+                  <div class="conditions__news-item-caption">
+                    Новое мобильное приложение «Биглион» уже в Appstore
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--'SECTION CONDITIONS'-->
+
+        <!--'SECTION FORM'-->
+        <div class="content__section form" id="order">
+          <div class="content__wrapper clearfix">
+            <div class="form__wrap">
+              <div class="form__left">
+                <div class="form__header">ПОДАЙТЕ ЗАЯВКУ</div>
+                <h1 class="content__caption">
+                  Начните работать с нами уже сегодня
+                </h1>
+                <div class="form__text">
+                  <p class="text">
+                    Напишите нам, мы вышлем вам индивидуальные условия
+                    сотрудничества для вашего города и расскажем подробности.
+                  </p>
+                </div>
+                <div class="advantages">
+                  <div class="advantages__item">
+                    <div
+                      class="advantages__item-head active"
+                      data-tab-index="advantages-1"
+                    >
+                      Города с населением от 200 до 400 тысяч
+                    </div>
+                    <div id="advantages-1" class="advantages__item-text active">
+                      Полноценный офис «Биглион» в вашем городе с 3-5
+                      менеджерами на старте и вложениями от 700 000 ₽
+                    </div>
+                  </div>
+
+                  <div class="advantages__item">
+                    <div
+                      class="advantages__item-head"
+                      data-tab-index="advantages-2"
+                    >
+                      Города с населением от 100 до 200 тысяч
+                    </div>
+                    <div id="advantages-2" class="advantages__item-text">
+                      Полноценный офис «Биглион» в вашем городе с 3-5
+                      менеджерами на старте и вложениями от 700 000 ₽
+                    </div>
+                  </div>
+                  <div class="advantages__item">
+                    <div
+                      class="advantages__item-head"
+                      data-tab-index="advantages-3"
+                    >
+                      СНГ и другие страны
+                    </div>
+                    <div id="advantages-3" class="advantages__item-text">
+                      Полноценный офис «Биглион» в вашем городе с 3-5
+                      менеджерами на старте и вложениями от 700 000 ₽
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form__right">
+                <form action="" class="form__application">
+                  <div class="form__block">
+                    <div class="form__application-line">
+                      <label for="">Как вас зовут?</label>
+                      <input
+                        type="text"
+                        name="name"
+                        placeholder="Иван"
+                        required
+                      />
+                    </div>
+                    <div class="form__application-line">
+                      <label for="">Страна</label>
+                      <input type="text" placeholder="Россия" required />
+                    </div>
+                    <div class="form__application-line">
+                      <label for="">Город</label>
+                      <input type="text" placeholder="Тверь" required />
+                    </div>
+                    <div class="form__application-line">
+                      <label for="">Контактный телефон</label>
+                      <input
+                        type="text"
+                        placeholder="74959998877"
+                        pattern="^\d+$"
+                        required
+                      />
+                    </div>
+                    <div class="form__application-line">
+                      <label for="">Email</label>
+                      <input
+                        type="text"
+                        class="mail-input"
+                        pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$"
+                        placeholder="mail@mail.com"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <button type="submit" id="submit" class="btn btn_submit">
+                    Оставить заявку <span>&rarr;</span>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--'SECTION FORM'-->
+      </div>
+      <!--'CONTENT'-->
+
+      <!--'MODAL'-->
+      <div class="modal">
+        <div class="modal__close"></div>
+        <div class="modal__body">
+          <div class="modal__body-date">7 марта</div>
+          <h1 class="content__caption">
+            Новое мобильное приложение «Биглион» уже в Appstore
+          </h1>
+          <div class="modal__body-img">
+            <img src="image/news3.jpg" alt="" />
+          </div>
+          <div class="modal__body-txt">
+            <p class="text">
+              Офис компании Biglion в городе — это удаленный отдел продаж.
+              Менеджеры звонят, ездят на встречи и все занимаются продажами. Как
+              правило владельцы франшизы являются руководителями и занимаются
+              планированием, организацией и контролем работы менеджеров.
+            </p>
+
+            <p class="text">
+              Мы сотрудничаем с проверенными партнерами, которые предоставляют
+              нашим пользователям самые выгодные и качественные услуги. С каждым
+              из них мы договариваемся о лучших условиях для вас. Взамен
+              гарантируем партнеру привлечь определенное количество покупателей.
+            </p>
+          </div>
+          <div class="modal__body-txt">
+            Поделиться
+            <a href="">
+              <img src="image/fill-16.svg" alt="" />
+            </a>
+            <a href=""><img src="image/fill-4.svg" alt=""/></a>
+          </div>
+        </div>
+      </div>
+      <!--'MODAL'-->
+    </div>
+
+    <script src="build/main.js"></script>
+  </body>
+</html>

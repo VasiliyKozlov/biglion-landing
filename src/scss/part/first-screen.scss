@@ -1,0 +1,36 @@
+.first-screen{
+  padding-top: 140px;
+  &__caption{
+    width: auto;
+    margin: 0 auto;
+    font-size: 50px;
+    line-height: 1.12;
+    text-align: center;
+    color: #171717;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  &__liad{
+      font-family: Raleway;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 1.44;
+      text-align: center;
+      color: #171717;
+       margin: 20px auto 150px;
+  }
+  &__link{
+
+    display: block;
+    &:before{
+      display: inline-block;
+      content: "";
+      background-image: url("../../image/arrow.svg");
+      background-repeat: no-repeat;
+      width: 33px;
+      height: 33px;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+  }
+}
